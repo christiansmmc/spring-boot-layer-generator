@@ -78,7 +78,7 @@ def create_facade(entity_name: str, package_prefix: str, path: str) -> None:
                     f'\n' \
                     f'import lombok.AllArgsConstructor;\n' \
                     f'import lombok.Builder;\n' \
-                    f'import lombok.Data;;\n' \
+                    f'import lombok.Data;\n' \
                     f'import lombok.NoArgsConstructor;\n' \
                     f'import java.io.Serializable;\n' \
                     f'\n' \
