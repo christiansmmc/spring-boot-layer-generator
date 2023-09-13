@@ -13,7 +13,7 @@ def is_list_valid(list_to_validate: list[str]) -> bool:
 
 
 def main() -> None:
-    path = create_input('Where are the layers on ?\n'
+    path = "../" + create_input('Where are the layers on ?\n'
                         '* Example: src/main/java/com/tealpanda\n'
                         ' - ')
 
@@ -29,7 +29,7 @@ def main() -> None:
                                      '[Controller - Facade - Service - Repository]\n'
                                      ' - ')
 
-    if is_default_layers.lower() == 'n':
+    if is_default_layers == 'n':
         layers_to_create = create_input('Which layers do you want to create ?\n'
                                         '[options: Resource - Controller - Facade - Context - Service - Repository]\n'
                                         '* Send separated by space\n'
